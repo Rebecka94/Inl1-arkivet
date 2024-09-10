@@ -218,6 +218,10 @@ font-weight: 500;
     font-weight: 300;  
 }
 
+.btn-secondary:hover  {
+background-color: #caaa6d;
+}
+
 /*fjärde section styling avslut*/
 /*main styling avslut*/
 
