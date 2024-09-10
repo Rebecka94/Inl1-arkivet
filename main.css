@@ -1,3 +1,7 @@
+:root {
+    --bg-light: #f3f4ef;
+}
+
 body {
     margin: 0%;
     padding: 0%;
@@ -10,7 +14,7 @@ body {
     z-index: 1;
     width: 100%;
     justify-content: space-between;
-    background-color: whitesmoke;
+    background-color: var(--bg-light)
 }
 
 .nav-container {
@@ -74,7 +78,7 @@ body {
     padding-top: 32px;
     padding-right: 32px;
     padding-bottom: 0%;
-    background-color: #f5f5f5;
+    background-color: var(--bg-light)
 }
 
 /*första section styling*/
@@ -217,8 +221,9 @@ font-weight: 500;
 }
 
 #fourth-section-p {
-    font-weight: 300;
+    font-weight: 300;  
 }
+
 /*fjärde section styling avslut*/
 /*main styling avslut*/
 
