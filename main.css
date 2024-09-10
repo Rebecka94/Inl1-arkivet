@@ -1,0 +1,266 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+/*header styling*/
+.header {
+    display: flex;
+    position: fixed; top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 180px;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+
+.nav-container {
+    display: flex;
+    padding-bottom: 8px;
+    margin-top: 15px;
+    margin-left: 20px;
+    height: 35px;
+}
+
+#menu-icon {
+    margin-right: 20px;
+    margin-left: 12px;
+}
+
+.nav-items {
+    display: flex;
+    gap: 23px;
+    font-size: 14px;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 10px; 
+}
+
+.nav-items a:hover {
+    text-decoration: underline;
+}
+
+.arkivet-logo {
+    justify-content: center;
+    text-align: center;
+    padding: 16px;
+    flex: 1;
+    margin-left: 98px;
+}
+
+.user-logo {
+   flex: 1;
+   display: flex;
+   justify-content: flex-end;
+   margin-right: 32px;
+   margin-top: 15px;
+}
+/*header styling avslut*/
+
+
+/*main styling*/
+.main {
+    display: flex;
+    flex-direction: column;
+    padding-left: 32px;
+    padding-top: 32px;
+    padding-right: 32px;
+    padding-bottom: 0%;
+    background-color: #f5f5f5;
+}
+
+/*första section styling*/
+video {
+    width: 100%;
+}
+
+.first-section {
+    position: absolute;
+    left: 70px;
+    top: 450px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: 15px;
+}
+
+#first-section-h1 {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+#first-section-p {
+    top: 500px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+#first-section-a {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+/*första section styling avslut*/
+
+/*andra section styling*/
+.second-section {
+    display: flex;
+}
+
+.second-section-parent-1 {
+    width: 50%;
+    display: flex;
+    position: static;
+}
+
+.second-section-parent-2 {
+    width: 50%;
+    display: flex;
+    position: static;
+}
+
+img {
+    width: 100%;
+}
+
+.second-section-div-1 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    position: absolute;
+    left: 80px;
+    width: 25%;
+    margin-top: 750px;
+}
+
+.second-section-div-2 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    position: absolute;
+    right: 300px;
+    width: 25%;
+    margin-top: 750px;
+}
+
+.second-section-h2 {
+font-weight: 500;
+}
+
+.second-section-p {
+    top: 500px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+}
+/*andra section styling avslut*/
+
+/*tredje section styling*/
+.third-section {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    height: 440px;
+}
+
+.third-container-1 {
+    margin-bottom: 40px;
+}
+
+#id-vara-butiker {
+    margin-top: 70px;
+    margin-bottom: 60px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.class-city {
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.container-cities {
+    display: flex;
+    gap: 100px;
+    font-weight: 600;
+    font-size: 20px;
+}
+/*tredje section styling avslut*/
+
+/*fjärde section styling*/
+.fourth-section {
+    height: 500px;
+    margin-bottom: 120px;
+}
+
+.fourth-section-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+    margin-bottom: 60px;
+}
+
+#fourth-section-h2 {
+    font-weight: 400;
+}
+
+#fourth-section-p {
+    font-weight: 300;
+}
+/*fjärde section styling avslut*/
+/*main styling avslut*/
+
+/*footer styling*/
+footer {
+    display: flex;
+    height: 300px;
+    gap: 60px;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.flex-h2 {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.flex-col a {
+    text-decoration: none;
+    color: black;
+    font-weight: 450;
+    font-size: 13px;
+}
+
+.flex-col a:hover {
+    text-decoration: underline;
+}
+
+.arkivet-footer-logo {
+   margin-left: 80px; 
+   margin-right: 40px;
+   margin-top: 60px;
+}
+/*footer styling avslut*/
+
+
